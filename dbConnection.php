@@ -17,7 +17,7 @@ die("could not connect to database");
 
 
 if($connection){
-	 
+//	 echo 'database is connected successfully';
 	}
 
 else{

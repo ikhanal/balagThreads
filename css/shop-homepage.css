@@ -45,3 +45,20 @@ body {
 footer {
   margin: 50px 0;
 }
+.social_icons a { 
+    float:left;
+    
+}
+.social_icons{
+    float:right;
+   
+}
+
+
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.thumbnail:hover .caption{
+    display: block;
+}

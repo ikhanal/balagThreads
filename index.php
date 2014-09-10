@@ -16,7 +16,7 @@
     <link href="css/shop-homepage.css" rel="stylesheet">
 
 </head>
-<?php ?>
+<?php include 'header.php';?>
 <body>
 
     
@@ -26,11 +26,11 @@
         <div class="row">
 
             <div class="col-md-3">
-                <p class="lead">Shop Name</p>
+                <p class="lead">B-Threads</p>
                 <div class="list-group">
-                    <a href="#" class="list-group-item">Printable</a>
-                    <a href="#" class="list-group-item">Cupcake Wrappers</a>
-                    <a href="#" class="list-group-item">Authentic Dragon Bones</a>
+                    <a href="#" class="list-group-item">Cloths</a>
+                    <a href="#" class="list-group-item">Foot Wear</a>
+                    <a href="#" class="list-group-item">Home Decors</a>
                 </div>
             </div>
 
@@ -71,12 +71,17 @@
 
                     <div class="col-sm-4 col-lg-4 col-md-4">
                         <div class="thumbnail">
+                            <a data-toggle="dropdwon" class="dropdown-toggle" href="#contact">
                             <img src="http://placehold.it/320x150" alt="">
+                            
+                            </a>
+                            
                             <div class="caption">
-                                <h4 class="pull-right">$24.99</h4>
-                                <h4><a href="#">First Product</a>
+                                <h4 class="pull-right">$24.99 </h4>
+                                <h4><a href="products/shoes.php">Summer Shoes</a>
                                 </h4>
-                                <p>See more snippets like this online store item at <a target="_blank" href="http://www.bootsnipp.com">Bootsnipp - http://bootsnipp.com</a>.</p>
+                                
+                                <p>See more items at <a target="_blank" href="products/shoes.php">Online Shoes Store</a>.</p>
                             </div>
                             <div class="ratings">
                                 <p class="pull-right">15 reviews</p>
@@ -95,10 +100,10 @@
                         <div class="thumbnail">
                             <img src="http://placehold.it/320x150" alt="">
                             <div class="caption">
-                                <h4 class="pull-right">$64.99</h4>
-                                <h4><a href="#">Second Product</a>
+                                <h4 class="pull-right">$12.99</h4>
+                                <h4><a href="slippers.php">Summer Slippers</a>
                                 </h4>
-                                <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <p>Secure it before run out at <a target="_bnank" href="products/slippers.php">Slippers Store</a>. </p>
                             </div>
                             <div class="ratings">
                                 <p class="pull-right">12 reviews</p>
@@ -118,9 +123,9 @@
                             <img src="http://placehold.it/320x150" alt="">
                             <div class="caption">
                                 <h4 class="pull-right">$74.99</h4>
-                                <h4><a href="#">Third Product</a>
+                                <h4><a href="#">Nepali Pasmina</a>
                                 </h4>
-                                <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <p>Feel proud of wearing world-class pasmina shawls.</p>
                             </div>
                             <div class="ratings">
                                 <p class="pull-right">31 reviews</p>
@@ -140,9 +145,9 @@
                             <img src="http://placehold.it/320x150" alt="">
                             <div class="caption">
                                 <h4 class="pull-right">$84.99</h4>
-                                <h4><a href="#">Fourth Product</a>
+                                <h4><a href="#">Home Decors</a>
                                 </h4>
-                                <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <p>Decor your home with full of classic arts and paintings</p>
                             </div>
                             <div class="ratings">
                                 <p class="pull-right">6 reviews</p>
@@ -161,10 +166,10 @@
                         <div class="thumbnail">
                             <img src="http://placehold.it/320x150" alt="">
                             <div class="caption">
-                                <h4 class="pull-right">$94.99</h4>
-                                <h4><a href="#">Fifth Product</a>
+                                <h4 class="pull-left">Only $94.99</h4>
+                                <h4><a href="#">B-Threads</a>
                                 </h4>
-                                <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <p>Grab some B-Threads special items and make it your own.</p>
                             </div>
                             <div class="ratings">
                                 <p class="pull-right">18 reviews</p>
@@ -200,3 +205,6 @@
     <script src="js/bootstrap.js"></script>
 
 </body>
+<?php 
+    include './footer.php';
+?>
